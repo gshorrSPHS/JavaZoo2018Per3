@@ -1,22 +1,22 @@
 public class DatBoi extends Animal implements Running
 {
-    private int numOfFans;
-    public DatBoi(int time)
+    private int cycleSpeed;
+    public DatBoi(int cycleSpeed)
     {
         super("Dat Boi,AKA: Poison Dart Frog", "Basically, a cool frog on a unicycle.");
-        this.numOfFans = numOfFans;
+        this.cycleSpeed = cycleSpeed;
     }
     
     @Override
     public String play()
     {
-        return "The animal acts snobbish and rolls around on his uncycle, he does not play... he is dat boi";
+        return "The animal acts snobbish and rolls around on his uncycle at " + cycleSpeed + " mph. He does not play... he is dat boi";
     }
        
     @Override
     public String eat()
     {
-        return "The animal eats all of the attention he recieves for being so cool, and there are " + numOfFans + "fans.";
+        return "The animal eats all of the attention he recieves for being so cool and never goes hungry.";
     }
     
     @Override
