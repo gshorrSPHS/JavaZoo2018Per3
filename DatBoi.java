@@ -31,3 +31,13 @@ public class DatBoi extends Animal implements Running
         return "He does not run, he rolls around rather on a unicycle... and he's pretty fast.";
     }
 }
+
+
+//public class SupremeDatBoi extends DatBoi
+//{
+    //public SupremeDatBoi()
+    //{
+        //super(1000, "Supreme Dat Boi Frog", 
+        //"He does everthing that dat boi does, but has a Supreme unicycle.");
+    //}
+//}
